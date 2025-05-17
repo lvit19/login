@@ -5,68 +5,64 @@
   <title>GTR Net - Bem-vindo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body {
+    * {
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
+    }
+
+    body {
       font-family: "Segoe UI", sans-serif;
-      background-color: #f4f4f4;
+      background-color: #fff;
       color: #333;
-      text-align: center;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       min-height: 100vh;
-    }
-
-    .container {
+      text-align: center;
       padding: 20px;
-      max-width: 500px;
     }
 
     .logo {
       width: 100%;
       max-width: 300px;
       height: auto;
-      margin-bottom: 20px;
+      margin-bottom: 25px;
     }
 
     h1 {
       font-size: 1.8rem;
-      margin-bottom: 10px;
+      margin-bottom: 15px;
       color: #007b5f;
     }
 
     p {
       font-size: 1rem;
       margin-bottom: 30px;
+      line-height: 1.4;
     }
 
-    .footer {
-      margin-top: auto;
-      padding: 10px;
-      font-size: 0.9rem;
-    }
-
-    .footer a {
-      color: #007b5f;
+    .btn-site {
+      background-color: #28a745;
+      color: #fff;
+      padding: 12px 24px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 6px;
       text-decoration: none;
+      transition: background-color 0.3s ease;
     }
 
-    .footer a:hover {
-      text-decoration: underline;
+    .btn-site:hover {
+      background-color: #218838;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <img src="https://gtrnet.com.br/wp-content/uploads/2025/04/23cdbca9-abf0-415c-aaff-1e106f1b4880-1.jpg" alt="Logo GTR Net" class="logo">
-    <h1>Você está conectado com a GTR Net</h1>
-    <p>Internet de alta performance com qualidade, estabilidade e confiança para toda a sua família.</p>
-    <p>Aproveite sua navegação!</p>
-  </div>
-  <div class="footer">
-    <a href="https://gtrnet.com.br" target="_blank">Visite nosso site</a>
-  </div>
+  <img src="https://gtrnet.com.br/wp-content/uploads/2025/04/23cdbca9-abf0-415c-aaff-1e106f1b4880-1.jpg" alt="Logo GTR Net" class="logo">
+  <h1>Você está conectado com a GTR Net</h1>
+  <p>Internet de alta performance com qualidade, estabilidade e confiança.<br> Conecte-se ao que importa com a GTR Net.</p>
+  <a href="https://gtrnet.com.br" target="_blank" class="btn-site">Conferir nosso site</a>
 </body>
 </html>
