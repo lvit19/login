@@ -20,7 +20,7 @@ document.getElementById("loginForm").addEventListener("submit", async function (
   };
 
   try {
-    const response = await fetch("https://app.lvit.com.br/webhook-test/testeaa", {
+    const response = await fetch("https://app.lvit.com.br/webhook/testeaa", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data)
